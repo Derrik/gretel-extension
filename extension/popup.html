@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Gretel</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Login</h1>
+    <div>
+      <div>
+        <form id="login" action="">
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="text" /><br />
+          <label for="password">Password:</label>
+          <input id="password" name="password" type="password" />
+          <div id="feedback" />
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

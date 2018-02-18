@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gretel",
+  "description": "When active this will post urls to your Gretel account.",
+  "version": "0.0",
+
+  "browser_action": {
+    "default_icon": "smallg.png",
+    "default_popup": "popup.html",
+    "default_title": "Activate Gretel"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}
